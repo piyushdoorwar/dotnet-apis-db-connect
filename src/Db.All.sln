@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Couchbase.Service", "Couchbase.Service\Couchbase.Service.csproj", "{AACE1BB0-92E1-4FCB-8D8D-1D93EB2F511A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elastic.Service", "Elastic.Service\Elastic.Service.csproj", "{09896D03-93B3-4458-98A3-D179D0123B24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AACE1BB0-92E1-4FCB-8D8D-1D93EB2F511A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AACE1BB0-92E1-4FCB-8D8D-1D93EB2F511A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AACE1BB0-92E1-4FCB-8D8D-1D93EB2F511A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09896D03-93B3-4458-98A3-D179D0123B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09896D03-93B3-4458-98A3-D179D0123B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09896D03-93B3-4458-98A3-D179D0123B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09896D03-93B3-4458-98A3-D179D0123B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

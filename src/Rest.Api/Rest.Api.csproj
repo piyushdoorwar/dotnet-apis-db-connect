@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Couchbase.Service\Couchbase.Service.csproj" />
+    <ProjectReference Include="..\Elastic.Service\Elastic.Service.csproj" />
     <ProjectReference Include="..\Mongo.Service\Mongo.Service.csproj" />
   </ItemGroup>
 
